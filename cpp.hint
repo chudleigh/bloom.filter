@@ -1,0 +1,7 @@
+// Файлы указаний помогают среде IDE Visual Studio интерпретировать идентификаторы Visual C++
+// (например, имена функций и макросов).
+// Дополнительные сведения: https://go.microsoft.com/fwlink/?linkid=865984
+#define ADDAPI __attribute__((visibility("default")))
+#define ADDAPI
+#define ADDAPI __declspec(dllexport)
+#define ADDAPI __declspec(dllimport)
